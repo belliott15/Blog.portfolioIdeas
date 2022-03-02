@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+--dark-salmon: #E4998Aff;
+--cinereous: #AA8B87ff;
+--dim-gray: #636A6Eff;
+--desert-sand: #EBCDB8ff;
+--silver-pink: #B7A9A1ff;
+    margin: 0;
+}
+
+header{
+    height: 60px;
+    background-color: var(--cinereous);
+    border: solid 1px var(--silver-pink);
+    box-shadow: var(--desert-sand);
+    padding: 11px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30% 23.3% 23.3% 23.3%;
+    grid-template-rows: auto;
+    background-image: url(/Images/sign-post.png);
+    height: 80vh;
+}
+
+section{
+    border-radius: 10px;
+    width: 80%;
+    height: 20%;
+    padding: 15px;
+    border: 1px solid black;
+    @media screen {
+        min-width: 300px;
+    }
+}
+
+footer{
+    background-color: steelblue;
+    margin: 0;
+    height: 100%;
+    border: 1px solid black;
+}
